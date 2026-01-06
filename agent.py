@@ -55,7 +55,7 @@ Evaluate leads and return:
 - next_action: what should happen next"""
 
     # Format prompt with input data
-    formatted_prompt = prompt.format(**input_data)
+    formatted_prompt = prompt + "\n\nLEAD DATA TO EVALUATE:\n" + json.dumps(input_data, indent=2)
 
     messages = [{"role": "user", "content": formatted_prompt}]
 
