@@ -1,0 +1,12 @@
+{
+  "agent_name": "Lead Scorer",
+  "agent_type": "lead_scorer",
+  "business_name": "Simple Flo Solutions",
+  "target_customer": "small service businesses",
+  "trigger_type": "webhook",
+  "tools": [
+    "web_search",
+    "crm_access"
+  ],
+  "brand_voice": "clear, helpful, professional"
+}
